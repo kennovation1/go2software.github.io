@@ -38,9 +38,11 @@
         
         .logo {
             max-width: 400px;
+            width: 100%;
             height: auto;
             margin: 0 auto 30px;
             display: block;
+            padding: 0 20px;
         }
         
         .tagline {
@@ -59,8 +61,9 @@
         }
         
         .hero-section {
-            background: #f8f9fa;
+            background: linear-gradient(135deg, #f0f7fb 0%, #e3f2fd 100%);
             padding: 50px 20px;
+            border-bottom: 3px solid #1e5f8c;
         }
         
         .intro {
@@ -83,6 +86,7 @@
             background: #ffffff;
             border-radius: 6px;
             border-left: 4px solid #1e5f8c;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
         }
         
         .credential-item h3 {
@@ -98,6 +102,11 @@
         
         section {
             padding: 60px 20px;
+            background: #ffffff;
+        }
+        
+        section:nth-of-type(even) {
+            background: #f8fafb;
         }
         
         section h2 {
@@ -153,7 +162,9 @@
         }
         
         .clients-section {
-            background: #f8f9fa;
+            background: linear-gradient(135deg, #f0f7fb 0%, #e3f2fd 100%);
+            border-top: 1px solid #d0e7f5;
+            border-bottom: 1px solid #d0e7f5;
         }
         
         .clients-list {
@@ -255,6 +266,10 @@
         }
         
         @media (max-width: 768px) {
+            .logo {
+                max-width: 280px;
+            }
+            
             .tagline {
                 font-size: 1.3rem;
             }
@@ -401,6 +416,7 @@
             <p>Go2 Software LLC • Ken Robbins, President</p>
             <p><a href="https://linkedin.com/in/kerobbins" target="_blank" rel="noopener">LinkedIn</a> • <a href="mailto:ken@go2.software">ken@go2.software</a> </p>
             <p style="margin-top: 15px; opacity: 0.8;">Former Executive Director of Engineering, Novartis Institutes for BioMedical Research</p>
+            <p style="margin-top: 20px; opacity: 0.7; font-size: 0.85rem;">© 2025 Go2 Software LLC. All rights reserved.</p>
         </div>
     </footer>
 </body>
