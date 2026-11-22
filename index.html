@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Go2 Software - Benchling Expertise for Biotech</title>
-    <meta name="description" content="Full-spectrum Benchling consulting and digital transformation for biotech. Deep platform expertise, custom development, and strategic implementation.">
+    <meta name="description" content="Full-spectrum Benchling consulting and digital transformation for biotech. Deep platform expertise, custom development, and strategic implementation. Maker of Kenfigure Pro, configuration-as-code tools for Benchling.">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
@@ -98,6 +98,60 @@
         .credential-item p {
             color: #5a6c7d;
             font-size: 0.95rem;
+        }
+
+        .credential-item a {
+            color: #1e5f8c;
+        }
+
+        .product-section {
+            background: #ffffff;
+        }
+
+        .product-intro {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #34495e;
+        }
+
+        .card-tagline {
+            color: #34495e;
+            font-weight: 600;
+            margin: -5px 0 12px;
+        }
+
+        .product-award {
+            text-align: center;
+            margin-top: 35px;
+            color: #5a6c7d;
+        }
+
+        .product-award a {
+            color: #1e5f8c;
+        }
+
+        .product-cta {
+            text-align: center;
+            margin-top: 25px;
+        }
+
+        .product-link {
+            display: inline-block;
+            padding: 14px 34px;
+            background: #1e5f8c;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .product-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.2);
         }
         
         section {
@@ -307,12 +361,12 @@
             
             <div class="credentials">
                 <div class="credential-item">
-                    <h3>🏆 Benchling Community Leader</h3>
-                    <p>Top Community Contributor Changemaker Award 2024, 2025 • Organizer of Boston Benchling User's Group</p>
+                    <h3>🏆 Benchling Changemaker Awards</h3>
+                    <p><a href="https://www.benchling.com/blog/meet-the-2026-benchtalk-boston-changemakers" target="_blank" rel="noopener">Innovation Award 2026</a> for Kenfigure • Top Community Contributor 2024, 2025</p>
                 </div>
                 <div class="credential-item">
-                    <h3>🎤 Industry Speaker</h3>
-                    <p>Presented at BenchTalk Boston 2023, 2024, and 2025 • Active thought leader in lab informatics</p>
+                    <h3>🎤 Speaker and Organizer</h3>
+                    <p>Presented at BenchTalk Boston 2023, 2024, 2025, and 2026 • Organizer of Boston Benchling User's Group • Active thought leader in lab informatics</p>
                 </div>
                 <div class="credential-item">
                     <h3>🤝 Official Partner</h3>
@@ -322,6 +376,51 @@
         </div>
     </div>
     
+    <section class="product-section">
+        <div class="container">
+            <h2>Kenfigure Pro™</h2>
+            <p class="product-intro">
+                Go2 Software also builds Kenfigure Pro, a commercial tool suite for managing Benchling configuration as code. It is built on Kenfigure™, the open standard I created for describing a Benchling configuration in human- and machine-readable YAML files.
+            </p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Kenfigure Tool™</h3>
+                    <p class="card-tagline">Configuration as code</p>
+                    <ul>
+                        <li>Export a tenant's configuration to YAML</li>
+                        <li>Import changes back to Benchling, no UI clicking</li>
+                        <li>Schema lint against the style guide</li>
+                        <li>Git integration throughout</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <h3>Kenfigure Diagram™</h3>
+                    <p class="card-tagline">Comprehensive data model explorer</p>
+                    <ul>
+                        <li>Interactive, searchable ER diagrams</li>
+                        <li>Lint findings shown on the diagram</li>
+                        <li>Prompt Builder for SQL and AI context</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <h3>Dropdown Tool</h3>
+                    <p class="card-tagline">Self-service dropdown management with AI-assisted curation</p>
+                    <ul>
+                        <li>Scientists request new options from a Notebook entry</li>
+                        <li>Each request is style-checked and approved per your policy</li>
+                        <li>Applied to Benchling and committed to Git</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="product-award">🏆 Kenfigure received Benchling's 2026 <a href="https://www.benchling.com/blog/meet-the-2026-benchtalk-boston-changemakers" target="_blank" rel="noopener">Changemaker Innovation Award</a>.</p>
+            <div class="product-cta">
+                <a href="https://kenfigure.com/kenfigure_pro.html" class="product-link" target="_blank" rel="noopener">Learn more about Kenfigure Pro →</a>
+            </div>
+        </div>
+    </section>
+
     <section>
         <div class="container">
             <h2>Comprehensive Services</h2>
@@ -336,6 +435,16 @@
                     </ul>
                 </div>
                 
+                <div class="service-card">
+                    <h3>AI Enablement</h3>
+                    <ul>
+                        <li>Benchling AI skills development</li>
+                        <li>Data model design for FAIR, AI-ready data</li>
+                        <li>AI-driven solution building with configuration as code</li>
+                        <li>Benchling AI setup and chat guidelines</li>
+                    </ul>
+                </div>
+
                 <div class="service-card">
                     <h3>Custom Development</h3>
                     <ul>
@@ -374,7 +483,7 @@
         <div class="container">
             <h2>Trusted by Innovation Leaders</h2>
             <div class="clients-list">
-                <p>Serving innovative biotechnology companies across therapeutic modalities including genetic medicines, RNA therapeutics, antibody engineering, early detection, and novel drug discovery platforms.</p>
+                <p>Serving innovative biotechnology companies across modalities including gene editing and other genetic medicines, RNA therapeutics, viral vector gene therapy, in vivo and ex vivo CAR-T and other cell therapies, multispecific antibodies, small molecules, and cell line development.</p>
             </div>
         </div>
     </section>
@@ -416,7 +525,7 @@
             <p>Go2 Software LLC • Ken Robbins, President</p>
             <p><a href="https://linkedin.com/in/kerobbins" target="_blank" rel="noopener">LinkedIn</a> • <a href="mailto:ken@go2.software">ken@go2.software</a> </p>
             <p style="margin-top: 15px; opacity: 0.8;">Former Executive Director of Engineering, Novartis Institutes for BioMedical Research</p>
-            <p style="margin-top: 20px; opacity: 0.7; font-size: 0.85rem;">© 2025 Go2 Software LLC. All rights reserved.</p>
+            <p style="margin-top: 20px; opacity: 0.7; font-size: 0.85rem;">© 2026 Go2 Software LLC. All rights reserved.</p>
         </div>
     </footer>
 </body>
